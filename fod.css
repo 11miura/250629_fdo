@@ -154,9 +154,10 @@
 
 .head{
     width: 100%;
-    background-image: url(sozai/head.png);
+    background-image: url(sozai/head.jpg);
     background-size: cover;
     background-position: center;
+    height: 100%;
     margin-top: 0;
     height: 80rem;
     margin-bottom: 8rem;
