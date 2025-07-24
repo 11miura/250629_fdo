@@ -798,7 +798,7 @@ footer{
         margin-top: 2rem;
     }
     .moreBox .more{
-    border: solid 0.8px #235994;
+    border: solid 0.4px #235994;
     }
 }
 @media(max-width:599px){
