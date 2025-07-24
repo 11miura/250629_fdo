@@ -797,6 +797,9 @@ footer{
         margin-left: -1rem;
         margin-top: 2rem;
     }
+    .moreBox .more{
+    border: solid 0.8px #235994;
+    }
 }
 @media(max-width:599px){
     *{
@@ -840,9 +843,6 @@ footer{
     }
     .top_btn a img{
         width: 20rem;
-    }
-    .moreBox .more{
-    border: solid 1px #235994;
     }
     table{
         border-spacing: 1rem 2rem;
