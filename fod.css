@@ -297,6 +297,7 @@
 .time img{
     object-fit: contain;
     width: 100%;
+    height: 30rem;
 }
 
 table{
@@ -839,6 +840,9 @@ footer{
     }
     .top_btn a img{
         width: 20rem;
+    }
+    .moreBox .more{
+    border: solid 1.2px #235994;
     }
     table{
         border-spacing: 1rem 2rem;
