@@ -294,6 +294,11 @@
     margin: 1rem;
 }
 
+.time img{
+    object-fit: contain;
+    width: 100%;
+}
+
 table{
     border-collapse: separate !important;
     border-spacing: 6rem 2rem;
