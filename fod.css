@@ -30,33 +30,25 @@
         padding: 2rem 0;
     }
 }
+
 .top_btn{
     cursor: pointer;
-    z-index: 1001;
+    z-index: 5;
     position: fixed;
-    left: 4rem;
-    top: 5rem;
-    display: flex;
+    top: 3rem;
+    left: 2rem;
 }
-.top_btn a img{
-    width: 20rem;
+.top_btn img{
+    width: 24rem;
 }
 .btn{
-    cursor: pointer;
-    z-index: 1001;
     position: fixed;
-    right: 4rem;
-    top: 5rem;
+    top: 2rem;
+    right: 2rem;
+    z-index: 1001;
 }
-.hamburger_btn{
-    display: flex;
-    color: #235994;
-    cursor: pointer;
-    transition: all 0.3s;
-}
-.hamburger_btn:hover{
-    background-color: #00EBC7;
-}
+
+
 .book_btn01{
     cursor: pointer;
 }
@@ -75,11 +67,36 @@
     width: fit-content;
 }
 
-.hamburger_btn p,.book_btn a{
-    font-size: 2rem;
-    letter-spacing: 0.3rem;
-    text-decoration: none;
+.hamburger_btn{
+    width: 3rem;
+    height: 2rem;
+    cursor: pointer;
+    display: block; 
+    position: relative;
 }
+.h_span{
+    position: relative;
+    background-color: #235994;
+    height: 0.2rem;
+    width: 100%;
+    border-radius: 1px;
+    transition: all 0.4s ease-in-out;
+    padding: 0;
+}
+.h_span:nth-of-type(1) {
+    top: 0.8rem;
+}
+.h_span:nth-of-type(2) {
+    bottom: 0.8rem;
+}
+/* クリック時に横アイコンが斜めになる */
+.h_span.active:nth-of-type(1) {
+    transform: translateY(4px) rotate(-45deg);
+}
+.h_span.active:nth-of-type(2) {
+    transform: translateY(-4px) rotate(45deg);
+}
+
   
 .hamburger{
     position: fixed;
@@ -820,24 +837,7 @@ footer{
             align-items: center;
         }      
     }
-    .hamburger_btn{
-        right: 2rem;
-    }
-    .hamburger_btn p{
-        font-weight: 800;
-    }
-    .book_btn{
-        right: 2rem;
-    }
-    .top_btn{
-        cursor: pointer;
-        position: fixed;
-        left: 2rem;
-        z-index: 1;
-    }
-    .top_btn a img{
-        width: 20rem;
-    }
+    
     table{
         border-spacing: 1rem 2rem;
     }

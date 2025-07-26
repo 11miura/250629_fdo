@@ -64,16 +64,29 @@ const hamburgerBtn = document.querySelector(".hamburger_btn");
 const hamburgerBox = document.querySelector(".hamburger");
 const hamburgerItems = document.querySelectorAll(".h");
 
+/*-------------------------------------------
+// 1 ハンバーガーメニューがクリックされると全画面の色が変わる
+// 2 ハンバーガーメニューがクリックされるとメニューアイコンの形状変更
+// 3 ハンバーガーメニューがクリックされるとメニューバーが白色に変更
+-------------------------------------------*/
+const hamburgerSpan = document.querySelectorAll(".h_span");
+/* 
+ハンバーガーメニューがクリックされたら
+定数hamburgerMenuにactiveセレクタを代入
+定数bodyにoverlay セレクタを代入
+*/
 
 // menuBtnをクリックしたときの処置
 hamburgerBtn.addEventListener("click", () => {
   hamburgerBox.classList.toggle("show");
   hamburgerItems.forEach(item => item.classList.toggle('show'));
+  hamburgerSpan.forEach(item => item.classList.toggle('active'));
 });
 hamburgerItems.forEach(item => {
   item.addEventListener("click", () => {
     hamburgerBox.classList.toggle("show");
     hamburgerItems.forEach(item => item.classList.remove('show'));
+    hamburgerSpan.forEach(item => item.classList.toggle('active'));
   });
 });
 
@@ -130,7 +143,8 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 });
-summary00.addEventListener("click", (event) => {
+
+document.addEventListener("click", (event) => {
   // デフォルトの挙動を無効化
   event.preventDefault();
   // detailsのopen属性を判定
