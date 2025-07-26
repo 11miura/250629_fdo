@@ -30,21 +30,26 @@
         padding: 2rem 0;
     }
 }
-
-.hamburger_btn{
+.firstView{
+    width: 100%;
     z-index: 1001;
     position: fixed;
     right: 5rem;
     top: 5rem;
-    width: 15rem;
-    height: 5rem;
+}
+.top_btn{
+    cursor: pointer;
+}
+.top_btn a img{
+    width: 20rem;
+}
+.btn{
+    background-color: #fffdff;
+}
+.hamburger_btn{
     display: flex;
-    justify-content: center;
-    align-items: center;
     color: #235994;
     cursor: pointer;
-    background-color: #FFFFFE;
-    border-radius: 5rem;
     transition: all 0.3s;
 }
 .hamburger_btn:hover{
@@ -53,27 +58,23 @@
 .hamburger_btn p{
     padding-top: 3.2rem;
 }
+.book_btn01{
+    display: flex;
+    color: #235994;
+    cursor: pointer;
+    border-bottom: none;  
+}
+.book_btn02{
+    position: fixed;
+    display: flex;
+    color: #235994;
+    cursor: pointer;
+    
+}
 .book{
     width: fit-content;
 }
-.book_btn{
-    z-index: 5;
-    position: fixed;
-    right: 5rem;
-    bottom: 0;
-    width: 20rem;
-    height: 8rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #FFFFFE;
-    background-color: #235994;
-    cursor: pointer;
-    border-radius: 0.8rem 0.8rem 0 0;
-    border: solid 2px #fffffe;
-    border-bottom: none;
-    
-}
+
 .hamburger_btn p,.book_btn a{
     font-size: 2rem;
     letter-spacing: 0.3rem;
@@ -140,16 +141,7 @@
     background-color: #FF5470;
     color: #FFFFFE;
 }
-.top_btn{
-    cursor: pointer;
-    position: fixed;
-    left: 5rem;
-    top: 5rem;
-    z-index: 1;
-}
-.top_btn a img{
-    width: 20rem;
-}
+
 
 
 .head{
@@ -800,7 +792,7 @@ footer{
         margin-top: 2rem;
     }
     .moreBox .more{
-    border: solid 0.8px #235994;
+    border: solid 1.2px #235994;
     }
 }
 @media(max-width:599px){
