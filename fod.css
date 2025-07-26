@@ -68,8 +68,8 @@
 }
 
 .hamburger_btn{
-    width: 3rem;
-    height: 2rem;
+    width: 32px;
+    height: 20px;
     cursor: pointer;
     display: block; 
     position: relative;
@@ -77,24 +77,24 @@
 .h_span{
     position: relative;
     background-color: #235994;
-    height: 0.2rem;
+    height: 2px;
     width: 100%;
     border-radius: 1px;
     transition: all 0.4s ease-in-out;
     padding: 0;
 }
 .h_span:nth-of-type(1) {
-    top: 0.8rem;
+    top: 8px;
 }
 .h_span:nth-of-type(2) {
-    bottom: 0.8rem;
+    bottom: 8px;
 }
 /* クリック時に横アイコンが斜めになる */
 .h_span.active:nth-of-type(1) {
-    transform: translateY(4px) rotate(-45deg);
+    transform: translateY(-4px) rotate(45deg);
 }
 .h_span.active:nth-of-type(2) {
-    transform: translateY(-4px) rotate(45deg);
+    transform: translateY(4px) rotate(-45deg);
 }
 
   
