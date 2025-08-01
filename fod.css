@@ -36,15 +36,15 @@
     z-index: 5;
     position: fixed;
     top: 3rem;
-    left: 2rem;
+    left: 4rem;
 }
 .top_btn img{
     width: 24rem;
 }
 .btn{
     position: fixed;
-    top: 2rem;
-    right: 2rem;
+    top: 4rem;
+    right: 4rem;
     z-index: 1001;
 }
 
@@ -53,23 +53,25 @@
     cursor: pointer;
 }
 .book_btn01 img{
-    width: 3.6rem;
-    margin-top: -1rem;
+    width: 3.2rem;
 }
 .book_btn02{
     cursor: pointer;
     text-decoration: none;
+    padding: 0 3px;
 }
-.book_btn02 p{
+.book_btn02 span{
     color: #235994;
+    font-size: 1.6rem;
+    letter-spacing: 0;
 }
 .book{
     width: fit-content;
 }
 
 .hamburger_btn{
-    width: 32px;
-    height: 20px;
+    width: 30px;
+    height: fit-content;
     cursor: pointer;
     display: block; 
     position: relative;
@@ -77,24 +79,25 @@
 .h_span{
     position: relative;
     background-color: #235994;
-    height: 2px;
+    height: 2.4px;
     width: 100%;
-    border-radius: 1px;
+    border-radius: 10px;
     transition: all 0.4s ease-in-out;
     padding: 0;
+    transform-origin: center;
 }
 .h_span:nth-of-type(1) {
-    top: 8px;
+    top: -2px;
 }
 .h_span:nth-of-type(2) {
-    bottom: 8px;
+    bottom: -2px;
 }
 /* クリック時に横アイコンが斜めになる */
 .h_span.active:nth-of-type(1) {
-    transform: translateY(-4px) rotate(45deg);
+    transform: translateY(4.6px) rotate(-45deg);
 }
 .h_span.active:nth-of-type(2) {
-    transform: translateY(6px) rotate(-45deg);
+    transform: translateY(-4.6px) rotate(45deg);
 }
 
   
@@ -837,7 +840,19 @@ footer{
             align-items: center;
         }      
     }
-    
+    .top_btn{
+        left: 1rem;
+    }
+    .btn{
+        position: fixed;
+        right: 1rem;
+    }
+    .h_span.active:nth-of-type(1) {
+        transform: translateY(3.6px) rotate(-45deg);
+    }
+    .h_span.active:nth-of-type(2) {
+        transform: translateY(-3.6px) rotate(45deg);
+    }
     table{
         border-spacing: 1rem 2rem;
     }
