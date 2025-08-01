@@ -94,7 +94,7 @@
     transform: translateY(-4px) rotate(45deg);
 }
 .h_span.active:nth-of-type(2) {
-    transform: translateY(4px) rotate(-45deg);
+    transform: translateY(6px) rotate(-45deg);
 }
 
   
