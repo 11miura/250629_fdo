@@ -1,8 +1,10 @@
 @charset "utf-8";
 *{
-    font-family: Meiryo,Arial,sans-serif;
+
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     font-size: 62.5%;
-    font-weight: 800;
     p{
         font-size: 1.7rem;
         line-height: 3.2rem;
@@ -64,6 +66,7 @@
     color: #235994;
     font-size: 1.6rem;
     letter-spacing: 0;
+    font-weight: 400;
 }
 .book{
     width: fit-content;
@@ -739,8 +742,7 @@ details[open] .deg h2{
 /*FOOTER--------------------------------------------------------*/
 footer{
     height: 30rem;
-    background-color: #235994;
-    margin-top: 10rem;
+    background-color: #5ca0cb;
     padding-top: 10rem;
     height: fit-content;
 }
@@ -755,7 +757,7 @@ footer{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 2rem 2rem;
+    gap: 2rem 1rem;
     max-width: 70rem;
 }
 .footer li{
@@ -793,7 +795,7 @@ footer{
 }
 .footer_content h2{
     color: #FFFFFE;
-    font-size: 2.8rem;
+    font-size: 2rem;
     cursor: pointer;
 }
 
@@ -812,13 +814,13 @@ footer{
         margin-top: 2rem;
     }
     .moreBox .more{
-    border: solid 1.2px #235994;
+    border: solid 1.6px #235994;
     }
 }
 @media(max-width:599px){
     *{
         font-size: 50%;
-        font-weight: 800;
+        font-weight: 500;
         p{
             font-size: 14px;
         }
@@ -874,9 +876,6 @@ footer{
     }
     .text01{
         max-width: 70rem;
-    }
-    .footer ul{
-        gap: 2rem 1rem;
     }
     .footer_content{
         flex-flow: column;
