@@ -1,7 +1,7 @@
 @charset "utf-8";
 *{
     font-family: "Zen Maru Gothic", sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     font-style: normal;
     font-size: 62.5%;
     p{
@@ -9,6 +9,7 @@
         line-height: 3.2rem;
         letter-spacing: 0.2rem;
         padding: 2rem 0;
+        font-weight: 500;
     }
     .text h2{
         font-size: 2.8rem;
@@ -29,6 +30,7 @@
         line-height: 0;
         letter-spacing: 0.2rem;
         padding: 2rem 0;
+        font-weight: 500;
     }
 }
 
@@ -65,7 +67,7 @@
     color: #235994;
     font-size: 1.6rem;
     letter-spacing: 0;
-    font-weight: 400;
+    font-weight: 600;
 }
 .book{
     width: fit-content;
@@ -109,7 +111,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #FFFFFE;
+    background-color: #fffdff;
     width: 100%;
     min-height: 70rem;
     display: none;
@@ -136,7 +138,7 @@
     max-width: 70rem;
 }
 #menu01,#menu02,#menu03{
-    color: #FFFFFE;
+    color: #fffdff;
     background-color: #00EBC7;
 }
 #menu01:hover,#menu02:hover,#menu03:hover{
@@ -146,7 +148,7 @@
     list-style: none;
 }
 .hamburger li a{
-    padding: 0.4rem 1.2rem;
+    padding: 0.2rem 0.8rem 0.4rem 1.2rem;
     border-radius: 5rem;
     text-align: center;
     cursor: pointer;
@@ -155,13 +157,13 @@
     transition: all 0.3s;
     letter-spacing: 0.3rem;
     font-size: 1.7rem;
-    background-color: #FFFFFE;
+    background-color: #fffdff;
     text-decoration-line: none;
     color: #235994;
 }
 .hamburger li a:hover{
     background-color: #FF5470;
-    color: #FFFFFE;
+    color: #fffdff;
 }
 
 
@@ -319,14 +321,14 @@
 table{
     border-collapse: separate !important;
     border-spacing: 6rem 2rem;
-    color: #FFFFFE;
+    color: #fffdff;
 }
 .gyou01 th{
     font-size: 2.8rem;
     width: 12rem;
     border-radius: 0.8rem;
     text-align: center;
-    color: #FFFFFE;
+    color: #fffdff;
     padding: 0.2rem 0 0 0; 
     letter-spacing: 0.3rem;
 }
@@ -377,6 +379,7 @@ table{
     position: relative;
     transition: all 0.3s;
     letter-spacing: 0;
+    box-sizing: border-box;
 }
 .moreBox .more a{
     color: #235994;
@@ -434,7 +437,7 @@ table{
     gap: 2rem 2rem;
     margin: 2rem 0 0 0;
     background-color: #235994;
-    color: #FFFFFE;
+    color: #fffdff;
     padding: 1rem 2rem;
     border-radius: 5rem;
 
@@ -466,7 +469,7 @@ table{
     width: 20rem;
 }
 .content01{
-    color: #FFFFFE;
+    color: #fffdff;
     max-width: 70rem;
     margin: 0 auto;
     padding-bottom: 10rem;
@@ -550,7 +553,7 @@ table{
     border-radius: 4rem;
 }
 .staff{
-    color: #FFFFFE;
+    color: #fffdff;
     width: 50%;
     display: flex;
     justify-content: center;
@@ -569,7 +572,7 @@ table{
     letter-spacing: 0;
     padding: 0.4rem 0;
     font-weight: 500;
-    color: #FFFFFE;
+    color: #fffdff;
 }
 .info a:hover{
     color: #00EBC7;
@@ -587,7 +590,7 @@ table{
     margin-bottom: 0.5rem;
 }
 .summary00{
-    background-color: #FFFFFE;
+    background-color: #fffdff;
     color: #235994;
     border-radius: 0.8rem;
     padding: 1rem 2rem 0.4rem 2rem;
@@ -620,7 +623,7 @@ details[open] .deg h2{
 }
 .price{
     margin: 0;
-    background-color: #FFFFFE;
+    background-color: #fffdff;
     display: flex;
     flex-flow: column;
     align-items: center;
@@ -649,7 +652,7 @@ details[open] .deg h2{
 }
 .price a:nth-of-type(3){
     background-color: #235994;
-    color: #FFFFFE !important;
+    color: #fffdff !important;
     padding: 0.4rem 0.8rem;
     font-size: 1.5rem;
     border-radius: 0.4rem;
@@ -675,10 +678,10 @@ details[open] .deg h2{
     padding-bottom: 2rem;
     border-radius: 0.8rem;
     gap: 0.4rem;
-    color: #FFFFFE;
+    color: #fffdff;
 }
 .content00 .price a:nth-of-type(3){
-    background-color: #FFFFFE;
+    background-color: #fffdff;
     color: #235994 !important;
     padding: 0.4rem 0.8rem;
     font-size: 1.5rem;
@@ -705,7 +708,7 @@ details[open] .deg h2{
 }
 .summary01{
     background-color: #235994;
-    color: #FFFFFE;
+    color: #fffdff;
     border-radius: 0.8rem;
     padding: 1rem 2rem 0.4rem 2rem;
     transition: 0.3s all;
@@ -724,7 +727,7 @@ details[open] .deg h2{
     flex-wrap: wrap;
     gap: 2rem 2rem;
     margin: 2rem 0 0 0;
-    background-color: #FFFFFE;
+    background-color: #fffdff;
     color: #235994;
     padding: 1rem 2rem;
     border-radius: 5rem;
@@ -763,7 +766,7 @@ footer{
     list-style: none;
 }
 .footer li a{
-    padding: 0.4rem 1.2rem;
+    padding: 0.2rem 0.8rem 0.4rem 1.2rem;
     border-radius: 5rem;
     text-align: center;
     cursor: pointer;
@@ -772,7 +775,7 @@ footer{
     transition: all 0.3s;
     letter-spacing: 0.3rem;
     font-size: 1.7rem;
-    background-color: #FFFFFE;
+    background-color: #fffdff;
     text-decoration-line: none;
     color: #235994;
 }
@@ -793,7 +796,7 @@ footer{
     text-decoration: none;
 }
 .footer_content h2{
-    color: #FFFFFE;
+    color: #fffdff;
     font-size: 2rem;
     cursor: pointer;
 }

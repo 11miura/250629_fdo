@@ -43,7 +43,7 @@
     align-items: center;
     color: #00214D;
     cursor: pointer;
-    background-color: #FFFFFE;
+    background-color: #fffdff;
     border-radius: 5rem;
     transition: all 0.3s;
 }
@@ -63,11 +63,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #fffffe;
+    color: #fffdff;
     background-color: #00214D;
     cursor: pointer;
     border-radius: 0.8rem 0.8rem 0 0;
-    border: solid 2px #fffffe;
+    border: solid 2px #fffdff;
     border-bottom: none;
 }
 .hamburger_btn p,.book_btn p{
@@ -177,7 +177,7 @@
 
 
 .haikei00{
-    background-color: #FFFFFE;
+    background-color: #fffdff;
 }
 .haikei01{
     background-color: #00214D;
@@ -203,7 +203,7 @@
     gap: 2rem 2rem;
     margin: 2rem 0 0 0;
     background-color: #00214D;
-    color: #FFFFFE;
+    color: #fffdff;
     padding: 1rem 2rem;
     border-radius: 5rem;
 
@@ -263,7 +263,7 @@
 }
 
 .content01{
-    color: #FFFFFE;
+    color: #fffdff;
     max-width: 80rem;
     margin: 0 auto;
     padding-bottom: 10rem;
@@ -314,7 +314,7 @@
 }
 .staff{
     background-color: #00214D;
-    color: #FFFFFE;
+    color: #fffdff;
     width: 50%;
     display: flex;
     justify-content: center;
@@ -375,7 +375,7 @@ footer{
     transition: all 0.3s;
     letter-spacing: 0.3rem;
     font-size: 1.7rem;
-    background-color: #FFFFFE;
+    background-color: #fffdff;
     text-decoration-line: none;
     color: #00214D;
 }
@@ -396,7 +396,7 @@ footer{
     text-decoration: none;
 }
 .footer_content h2{
-    color: #FFFFFE;
+    color: #fffdff;
     font-size: 2.8rem;
     cursor: pointer;
 }

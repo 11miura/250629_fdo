@@ -43,7 +43,7 @@
     align-items: center;
     color: #00214D;
     cursor: pointer;
-    background-color: #FFFFFE;
+    background-color: #fffdff;
     border-radius: 5rem;
     transition: all 0.3s;
 }
@@ -63,11 +63,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #fffffe;
+    color: #fffdff;
     background-color: #00214D;
     cursor: pointer;
     border-radius: 0.8rem 0.8rem 0 0;
-    border: solid 2px #fffffe;
+    border: solid 2px #fffdff;
     border-bottom: none;
 }
 .hamburger_btn p,.book_btn p{
@@ -184,7 +184,7 @@
 
 
 .haikei00{
-    background-color: #fffffe;
+    background-color: #fffdff;
 }
 .haikei01{
     background-color: #00214D;
@@ -223,7 +223,7 @@
 }
 
 .content01{
-    color: #FFFFFE;
+    color: #fffdff;
     max-width: 80rem;
     margin: 0 auto;
     padding-bottom: 10rem;
@@ -233,7 +233,7 @@
     margin-bottom: 0.5rem;
 }
 .summary00{
-    background-color: #FFFFFE;
+    background-color: #fffdff;
     color: #00214D;
     border-radius: 0.8rem;
     padding: 1rem 2rem 0.4rem 2rem;
@@ -272,7 +272,7 @@ details[open] .deg h2{
 }
 .price{
     margin: 0;
-    background-color: #FFFFFE;
+    background-color: #fffdff;
     display: flex;
     flex-flow: column;
     align-items: center;
@@ -301,7 +301,7 @@ details[open] .deg h2{
 }
 .price a:nth-of-type(3){
     background-color: #00214D;
-    color: #FFFFFE !important;
+    color: #fffdff !important;
     padding: 0.4rem 0.8rem;
     font-size: 1.5rem;
     border-radius: 0.4rem;
@@ -328,10 +328,10 @@ details[open] .deg h2{
     padding-bottom: 2rem;
     border-radius: 0.8rem;
     gap: 0.4rem;
-    color: #FFFFFE;
+    color: #fffdff;
 }
 .content00 .price a:nth-of-type(3){
-    background-color: #FFFFFE;
+    background-color: #fffdff;
     color: #00214D !important;
     padding: 0.4rem 0.8rem;
     font-size: 1.5rem;
@@ -363,7 +363,7 @@ details[open] .deg h2{
 }
 .summary01{
     background-color: #00214D;
-    color: #FFFFFE;
+    color: #fffdff;
     border-radius: 0.8rem;
     padding: 1rem 2rem 0.4rem 2rem;
     transition: 0.3s all;
@@ -409,7 +409,7 @@ details[open] .deg h2{
     gap: 2rem 2rem;
     margin: 2rem 0 0 0;
     background-color: #00214D;
-    color: #FFFFFE;
+    color: #fffdff;
     padding: 1rem 2rem;
     border-radius: 5rem;
 
@@ -425,7 +425,7 @@ details[open] .deg h2{
     flex-wrap: wrap;
     gap: 2rem 2rem;
     margin: 2rem 0 0 0;
-    background-color: #FFFFFE;
+    background-color: #fffdff;
     color: #00214D;
     padding: 1rem 2rem;
     border-radius: 5rem;
@@ -475,7 +475,7 @@ footer{
     transition: all 0.3s;
     letter-spacing: 0.3rem;
     font-size: 1.7rem;
-    background-color: #FFFFFE;
+    background-color: #fffdff;
     text-decoration-line: none;
     color: #00214D;
 }
@@ -496,7 +496,7 @@ footer{
     text-decoration: none;
 }
 .footer_content h2{
-    color: #FFFFFE;
+    color: #fffdff;
     font-size: 2.8rem;
     cursor: pointer;
 }
