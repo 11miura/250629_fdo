@@ -399,6 +399,9 @@ table{
     margin-top: 12rem;
     margin-bottom: -8rem;
 }
+#g02{
+    margin: 0 0 1rem 0;
+}
 .mapes{
     max-width: 70rem;
     display: flex;
@@ -873,6 +876,9 @@ footer{
     }
     .h_span.active:nth-of-type(2) {
         transform: translateY(-3.6px) rotate(45deg);
+    }
+    #g02{
+    margin: 0 0 -4rem 0;
     }
     table{
         border-spacing: 1rem 2rem;
