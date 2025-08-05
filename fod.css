@@ -237,26 +237,25 @@
     display: flex;
     justify-content: flex-end;
 }
-.moreBox .more{
-    padding: 1rem;
-    border: solid 2px #235994;
+.moreBox .more a{
+    padding: 0.6rem 1.2rem 0.8rem 1.4rem;
     border-radius: 5rem;
-    width: 17rem;
     text-align: center;
     cursor: pointer;
     z-index: 1;
     position: relative;
     transition: all 0.3s;
-    letter-spacing: 0;
+    letter-spacing: 0.3rem;
+    font-size: 2rem;
+    border: 2px solid #235994;
     box-sizing: border-box;
-}
-.moreBox .more a{
     color: #235994;
     text-decoration: none;
     font-size: 1.7rem;
 }
-.moreBox .more:hover{
-    background-color: #00EBC7;
+.moreBox .more a:hover{
+    color: #fffdff;
+    background-color: #235994;
 }
 .mapes{
     max-width: 70rem;
@@ -298,10 +297,6 @@
 }
 .book .moreBox{
     display: inline;
-}
-.book .more{
-    width: auto;
-    padding: 0.2rem 0.8rem 0.4rem 1rem;
 }
 .content01{
     color: #fffdff;
@@ -630,7 +625,7 @@ footer{
 
 /*--------------------------------------------------------*/
 @media(max-width:439px){
-    .moreBox .more{
+    .moreBox .more a{
         border: solid 1.6px #235994;
     }
     .acc{
