@@ -277,6 +277,10 @@
     font-size: 8rem;
     font-weight: 800;
     color: #00EBC7;
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
 }
 
 .flex_boxes{

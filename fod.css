@@ -119,6 +119,7 @@
     align-items: center;
     z-index: 1000;
     transition: all 0.3s;
+    padding-left: 1rem;
 }
 .hamburger.show{
     display: flex;
@@ -128,7 +129,6 @@
     align-items: flex-start;
     flex-flow: column;
     gap: 3.2rem;
-    margin-left: 2rem;
 }
 .hamburger ul{
     display: flex;
@@ -316,6 +316,7 @@
     object-fit: contain;
     width: 100%;
     height: 30rem;
+    margin-top: -4rem;
 }
 
 table{
@@ -399,9 +400,7 @@ table{
     margin-top: 12rem;
     margin-bottom: -8rem;
 }
-#g02{
-    margin: 0 0 1rem 0;
-}
+
 .mapes{
     max-width: 70rem;
     display: flex;
@@ -510,6 +509,10 @@ table{
     font-size: 8rem;
     font-weight: 800;
     color: #00EBC7;
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
 }
 .illust08{
     display: flex;
@@ -540,7 +543,7 @@ table{
     flex-flow: column;
 }
 .flex_contents p{
-    line-height: 2.7rem;
+    line-height: 2.5rem;
 }
 .illust09{
     display: flex;
@@ -579,6 +582,9 @@ table{
     justify-content: center;
     align-items: center;
 }
+.info{
+    margin-bottom: 4rem;
+}
 .info p{
     font-size: 1.6rem;
     line-height: 2.8rem;
@@ -616,9 +622,10 @@ table{
     padding: 1rem 2rem 0.4rem 2rem;
     transition: 0.3s all;
     display: block;
+
 }
 .summary00:hover{
-    background-color: #00EBC7;
+    background-color: ;
 }
 .summary00::-webkit-details-marker {
     /* Safari-デフォルトの三角形を削除*/
@@ -688,7 +695,7 @@ details[open] .deg h2{
 }
 .content00 .price{
     margin: 0;
-    background-color: #235994;
+    background-color: #235994a2;
     display: flex;
     flex-flow: column;
     align-items: center;
@@ -774,6 +781,7 @@ footer{
     flex-flow: column;
     gap: 2rem;
     margin-bottom: 4rem;
+    margin-left: -2rem;
 }
 .footer ul{
     display: flex;
@@ -877,8 +885,8 @@ footer{
     .h_span.active:nth-of-type(2) {
         transform: translateY(-3.6px) rotate(45deg);
     }
-    #g02{
-    margin: 0 0 -4rem 0;
+    .time img{
+        margin-top: -8rem;
     }
     table{
         border-spacing: 1rem 2rem;
