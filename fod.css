@@ -138,11 +138,12 @@
     max-width: 70rem;
 }
 #menu01,#menu02,#menu03{
+    background-color: #235994;
     color: #fffdff;
-    background-color: #00EBC7;
 }
 #menu01:hover,#menu02:hover,#menu03:hover{
-    background-color: #FF5470;
+    background-color: #235994a2;
+    color: #fffdff;
 }
 .hamburger li{
     list-style: none;
@@ -162,7 +163,7 @@
     color: #235994;
 }
 .hamburger li a:hover{
-    background-color: #FF5470;
+    background-color: #235994a2;
     color: #fffdff;
 }
 
@@ -625,7 +626,7 @@ table{
 
 }
 .summary00:hover{
-    background-color: ;
+    background-color: #fffdffe4;
 }
 .summary00::-webkit-details-marker {
     /* Safari-デフォルトの三角形を削除*/
@@ -650,7 +651,7 @@ details[open] .deg h2{
 }
 .price{
     margin: 0;
-    background-color: #fffdff;
+    background-color: #fffdffa2;
     display: flex;
     flex-flow: column;
     align-items: center;
@@ -742,7 +743,7 @@ details[open] .deg h2{
     display: block;
 }
 .summary01:hover{
-    background-color: #00EBC7;
+    background-color: #235a94e4;
 }
 .summary01::-webkit-details-marker {
     /* Safari-デフォルトの三角形を削除*/
@@ -808,7 +809,8 @@ footer{
     color: #235994;
 }
 .footer li a:hover{
-    background-color: #00EBC7;
+    background-color: #235994a2;
+    color: #fffdff;
 }
 .footer_content{
     max-width: 70rem;
