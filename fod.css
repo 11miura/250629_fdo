@@ -314,7 +314,7 @@
     padding-top: 8rem;
     padding-bottom: 8rem;
 }
-/*
+
 .aida{
     width: 100%;
     height: 20rem;
@@ -322,8 +322,9 @@
 }
 .aida img{
     width: 20%;
+    object-fit: cover;
 }
-
+/*
 <!--間の写真だよ★
 <div class="haikei01">
     <div class="aida">
