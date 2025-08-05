@@ -119,7 +119,6 @@
     align-items: center;
     z-index: 1000;
     transition: all 0.3s;
-    padding-left: 1rem;
 }
 .hamburger.show{
     display: flex;
@@ -181,108 +180,9 @@
     height: 80rem;
     margin-bottom: 8rem;
 }
-.fv_boxes{
-    display: flex;
-    height: 60rem;
-    overflow: hidden;
-}
-.fv_box01{
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-}
-.fv_img01 img{
-    height: 60rem;
-    object-fit: cover;
-}
-/*
-.fv_box02{
-    width: calc(35% - 20px);
-    height: 60rem;
-    display: flex;
-    flex-flow: column;
-    gap: 20px;
-    position: relative;
-    overflow: hidden;
-}
-.fv_img02 img{
-    width: 80%;
-    height: calc(30rem - 10px);
-    object-fit: cover;
-}
-.fv_img03{
-    display: flex;
-    justify-content: flex-end;
-}
-.fv_img03 img{
-    width: 80%;
-    height: calc(30rem - 10px);
-    object-fit: cover; 
-    object-position: -2rem;  
-}
-.fv_box03{
-    width: calc(25% - 20px);
-    height: 60rem;
-    position: relative;
-}
-.fv_img04 img{
-    height: 60rem;
-    object-fit: cover;
-    object-position: -42rem;
-}
-.fv_illust01,.fv_illust02,.fv_illust03,.fv_illust04,.fv_illust05{
-    position: absolute; 
-    width: 20rem;
-    height: 20rem;
-}
-.fv_illust01{ 
-    top: -2rem;
-    left: 2rem;
-}
-.fv_illust01 img{
-    width: 100%;
-    object-fit: contain;
-}
-.fv_illust02{ 
-    top: 16rem;
-    right: 0;
-}
-.fv_illust02 img{
-    width: 100%;
-    object-fit: contain;
-}
-.fv_illust03{
-    bottom: -5rem;
-    left: -3rem;
-}
-.fv_illust03 img{
-    width: 100%;
-    object-fit: contain;
-}
-.fv_illust04{
-    bottom: -5rem;
-    left: 12rem;
-}
-.fv_illust04 img{
-    width: 100%;
-    object-fit: contain;
-}
-.fv_illust05{
-    bottom: -2rem;
-    right: 0;
-}
-.fv_illust05 img{
-    width: 100%;
-    object-fit: contain;
-}*/
 
 /*INDEX--------------------------------------------------------*/
-.illust01 img{
-    width: 80%;
-    margin-left: -5rem;
-    margin-top: -5rem;
-    margin-bottom: -8rem;
-}
+
 .standout{
     letter-spacing: 0.2rem;
     font-weight: bold;
@@ -318,39 +218,6 @@
     width: 100%;
     height: 30rem;
     margin-top: -4rem;
-}
-
-table{
-    border-collapse: separate !important;
-    border-spacing: 6rem 2rem;
-    color: #fffdff;
-}
-.gyou01 th{
-    font-size: 2.8rem;
-    width: 12rem;
-    border-radius: 0.8rem;
-    text-align: center;
-    color: #fffdff;
-    padding: 0.2rem 0 0 0; 
-    letter-spacing: 0.3rem;
-}
-.gyou02 th{
-    font-size: 2.4rem;
-    text-align: center;
-}
-.gyou02 .jikan{
-    letter-spacing: 0.3rem;
-}
-
-.illust02{
-    display: flex;
-    justify-content: flex-start;
-}
-.illust02 img{
-    width: 40%;
-    height: 40%;
-    margin-top: 4rem;
-    margin-bottom: -28rem;
 }
 
 .content_name{
@@ -391,17 +258,6 @@ table{
 .moreBox .more:hover{
     background-color: #00EBC7;
 }
-.illust03{
-    display: flex;
-    justify-content: center;
-}
-.illust03 img{
-    width: 30%;
-    height: 30%;
-    margin-top: 12rem;
-    margin-bottom: -8rem;
-}
-
 .mapes{
     max-width: 70rem;
     display: flex;
@@ -412,27 +268,8 @@ table{
 .mapes .map{
     width: calc(50% - 0.5rem);
 }
-.illust04{
-    display: flex;
-    justify-content: center;
-}
-.illust04 img{
-    width: 40%;
-    height: 40%;
-    margin-top: 8rem;
-    margin-bottom: -8rem;
-}
 
 /*ABOUT--------------------------------------------------------*/
-.illust05{
-    display: flex;
-    justify-content: flex-end;
-}
-.illust05 img{
-    width: 40%;
-    height: 40%;
-    margin-top: -12rem;
-}
 .ultagu{
     display: flex;
     width: fit-content;
@@ -448,17 +285,6 @@ table{
 .ultagu li a{ 
     font-size: 1.7rem;
     text-decoration: none;
-}
-.illust06{
-    display: flex;
-    justify-content: center;
-    margin-left: -2rem;
-    
-}
-.illust06 img{
-    width: 40%;
-    margin-top: 4rem;
-    margin-bottom: -8rem;
 }
 
 .tel{
@@ -488,16 +314,7 @@ table{
     padding-top: 8rem;
     padding-bottom: 8rem;
 }
-.illust07{
-    display: flex;
-    justify-content: center;
-    
-}
-.illust07 img{
-    width: 40%;
-    margin-top: 4rem;
-    margin-bottom: -12rem;
-}
+/*
 .aida{
     width: 100%;
     height: 20rem;
@@ -506,6 +323,19 @@ table{
 .aida img{
     width: 20%;
 }
+
+<!--間の写真だよ★
+<div class="haikei01">
+    <div class="aida">
+        <img src="sozai/aida/01.jpg">
+        <img src="sozai/aida/02.jpg">
+        <img src="sozai/aida/03.jpg">
+        <img src="sozai/aida/04.jpg">
+        <img src="sozai/aida/05.jpg">
+    </div>
+</div>
+-->
+*/
 .num h1{
     font-size: 8rem;
     font-weight: 800;
@@ -514,16 +344,6 @@ table{
     font-optical-sizing: auto;
     font-weight: 900;
     font-style: normal;
-}
-.illust08{
-    display: flex;
-    justify-content: center;
-    
-}
-.illust08 img{
-    width: 40%;
-    margin-top: 4rem;
-    margin-bottom: -20rem;
 }
 .flex_boxes{
     display: flex;
@@ -545,26 +365,6 @@ table{
 }
 .flex_contents p{
     line-height: 2.5rem;
-}
-.illust09{
-    display: flex;
-    justify-content: center;
-    
-}
-.illust09 img{
-    width: 40%;
-    margin-top: 4rem;
-    margin-bottom: -18rem;
-}
-.illust10{
-    display: flex;
-    justify-content: center;
-    
-}
-.illust10 img{
-    width: 40%;
-    margin-top: em;
-    margin-bottom: rem;
 }
 .staff_img{
     width: 50%;
@@ -603,14 +403,6 @@ table{
 }
 .info a:hover{
     color: #00EBC7;
-}
-.illust11{
-    max-width: 200rem;
-}
-.illust11 img{
-    width: 100%;
-    height: 20rem;
-    margin-top: -4rem;
 }
 /*TREATMENT--------------------------------------------------------*/
 .details{
@@ -838,18 +630,6 @@ footer{
 
 /*--------------------------------------------------------*/
 @media(max-width:439px){
-    .illust01 img{
-        width: 110%;
-        margin-top: 0;
-        margin-bottom: -10rem;
-    }
-    .illust02{
-        display: initial;
-    }
-    .illust02{
-        margin-left: -1rem;
-        margin-top: 2rem;
-    }
     .moreBox .more{
         border: solid 1.6px #235994;
     }
@@ -904,19 +684,6 @@ footer{
     .time img{
         margin-top: -8rem;
     }
-    table{
-        border-spacing: 1rem 2rem;
-    }
-    .gyou01 th{
-        font-weight: 800;
-    }
-    .gyou02 th{
-        font-size: 2.2rem;
-        text-align: center;
-    }
-    .gyou02 .jikan{
-        letter-spacing: 0.3rem;
-    }
     .mapes{
         flex-flow: column;
     }
@@ -930,118 +697,8 @@ footer{
         flex-flow: column;
     }
 }
-@media(min-width:600px) and (max-width:767px){
-    table{
-        border-spacing: 1rem 2rem;
-    }
-}
 @media(max-width:767px){
-    .fv_boxes{
-        display: flex;
-        height: 100rem;
-        gap: 4px;
-        overflow: hidden;
-        flex-flow: column;
-    }
-    .fv_box01{
-        width: 100%;
-        height: calc(30rem - 4px);
-        overflow: hidden;
-        position: relative;
-    }
-    .fv_img01{
-        display: flex;
-        justify-content: flex-end;
-    }
-    .fv_img01 img{
-        object-fit: cover;
-        height: 40rem;
-        object-position: 0;  
-
-    }
-    .fv_box02{
-        width: 100%;
-        height: calc(40rem - 4px);
-        display: flex;
-        flex-flow: column;
-        gap: 4px;
-        position: relative;
-    }
-    .fv_img02 img{
-        width: 80%;
-        height: calc(20rem - 4px);
-        object-fit: cover;
-    }
-    .fv_img03{
-        display: flex;
-        justify-content: flex-end;
-    }
-    .fv_img03 img{
-        width: 80%;
-        height: calc(20rem - 4px);
-        object-fit: cover; 
-        object-position: 0;  
-    }
-    .fv_box03{
-        width: 100%;
-        height: calc(30rem - 4px);
-        position: relative;
-    }
-    .fv_img04{
-        display: flex;
-        justify-content: flex-end;
-    }
-    .fv_img04 img{
-        object-fit: cover;
-        height: 48rem;
-        object-position: 0 -4rem;
-    }
-    .fv_illust01,.fv_illust02,.fv_illust03,.fv_illust04,.fv_illust05{
-        position: absolute; 
-        width: 20rem;
-        height: 20rem;
-    }
-    .fv_illust01{ 
-        top: -2rem;
-        left: 0rem;
-    }
-    .fv_illust01 img{
-        width: 100%;
-        object-fit: contain;
-    }
-    .fv_illust02{ 
-        top: 6rem;
-        right: 0;
-    }
-    .fv_illust02 img{
-        width: 100%;
-        object-fit: contain;
-    }
-    .fv_illust03{
-        bottom: -5rem;
-        left: -3rem;
-    }
-    .fv_illust03 img{
-        width: 100%;
-        object-fit: contain;
-    }
-    .fv_illust04{
-        bottom: -5rem;
-        left: 12rem;
-    }
-    .fv_illust04 img{
-        width: 100%;
-        object-fit: contain;
-    }
-    .fv_illust05{
-        bottom: -3rem;
-        right: -2rem;
-    }
-    .fv_illust05 img{
-        width: 100%;
-        object-fit: contain;
-    }
-
+    
     .ultagu{
         gap: 0 2rem;
     }
@@ -1052,102 +709,5 @@ footer{
     }
     .content00 .price,.content01 .price{
         width: 100%;
-    }
-}
-@media(max-width:1199px) and (min-width:768px){
-    .fv_boxes{
-        display: flex;
-        height: 100rem;
-        gap: 20px;
-        overflow: hidden;
-    }
-    .fv_box01{
-        width: 100%;
-        height: 50rem;
-        overflow: hidden;
-        position: relative;
-    }
-    .fv_img01 img{
-        object-fit: cover;
-        height: 60rem;
-        object-position: -12rem;
-    }
-    .fv_box02{
-        width: calc(65% - 10px);
-        height: 50rem;
-        display: flex;
-        flex-flow: column;
-        gap: 20px;
-        position: relative;
-    }
-    .fv_img02 img{
-        width: 80%;
-        height: calc(25rem - 10px);
-        object-fit: cover;
-    }
-    .fv_img03{
-        display: flex;
-        justify-content: flex-end;
-    }
-    .fv_img03 img{
-        width: 80%;
-        height: calc(25rem - 10px);
-        object-fit: cover; 
-        object-position: 0;  
-    }
-    .fv_box03{
-        width: calc(35% - 10px);
-        height: 60rem;
-        position: relative;
-    }
-    .fv_img04 img{
-        height: 50rem;
-        object-fit: cover;
-        object-position: -32rem;
-    }
-    .fv_illust01,.fv_illust02,.fv_illust03,.fv_illust04,.fv_illust05{
-        position: absolute; 
-        width: 20rem;
-        height: 20rem;
-    }
-    .fv_illust01{ 
-        top: -2rem;
-        left: 2rem;
-    }
-    .fv_illust01 img{
-        width: 100%;
-        object-fit: contain;
-    }
-    .fv_illust02{ 
-        top: 12rem;
-        right: 0;
-    }
-    .fv_illust02 img{
-        width: 100%;
-        object-fit: contain;
-    }
-    .fv_illust03{
-        bottom: -2rem;
-        left: -3rem;
-    }
-    .fv_illust03 img{
-        width: 100%;
-        object-fit: contain;
-    }
-    .fv_illust04{
-        bottom: -2rem;
-        left: 12rem;
-    }
-    .fv_illust04 img{
-        width: 100%;
-        object-fit: contain;
-    }
-    .fv_illust05{
-        bottom: 12rem;
-        right: 0;
-    }
-    .fv_illust05 img{
-        width: 100%;
-        object-fit: contain;
     }
 }
