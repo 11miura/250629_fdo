@@ -2,6 +2,7 @@
 const hamburgerBtn = document.querySelector(".hamburger_btn");
 const hamburgerBox = document.querySelector(".hamburger");
 const hamburgerItems = document.querySelectorAll(".h");
+const bookBtn02 = document.querySelector(".book_btn02")
 
 /*-------------------------------------------
 // 1 ハンバーガーメニューがクリックされると全画面の色が変わる
@@ -20,6 +21,11 @@ hamburgerBtn.addEventListener("click", () => {
   hamburgerBox.classList.toggle("show");
   hamburgerItems.forEach(item => item.classList.toggle('show'));
   hamburgerSpan.forEach(item => item.classList.toggle('active'));
+});
+bookBtn02.addEventListener("click", () => {
+  hamburgerBox.classList.remove("show");
+  hamburgerItems.forEach(item => item.classList.remove('show'));
+  hamburgerSpan.forEach(item => item.classList.remove('active'));
 });
 hamburgerItems.forEach(item => {
   item.addEventListener("click", () => {
