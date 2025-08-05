@@ -856,6 +856,12 @@ footer{
     .acc{
         border-bottom: solid 1.6px;
     }
+    .acc{
+        border-bottom: 1.2px solid #235994;
+    }
+    .content01 .acc{
+        border-bottom: 1.2px solid #fffdff;
+    }
 }
 @media(max-width:599px){
     *{
