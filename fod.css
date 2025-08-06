@@ -170,7 +170,7 @@
 
 .head{
     width: 100%;
-    background-image: url(sozai/head.jpg);
+    background-image: url();
     position: fixed;
     z-index: -1;
     background-size: cover;
