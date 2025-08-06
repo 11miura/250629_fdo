@@ -178,15 +178,21 @@
     height: 80rem;
     margin-bottom: 8rem;
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
+    justify-content: flex-start;
+}
+#head02{
+    background-image: url(sozai/head02.jpg);
+}
+#head03{
+    background-image: url(sozai/head03.jpg);
 }
 .head h2{
     color: #235994;
-    font-size: 3.2rem;
-    line-height: 6rem;
+    font-size: 2.8rem;
+    letter-spacing: 0.4rem;
     text-align: right;
-    font-weight: 500;
+    margin: 9rem 0 0 5.8rem;
+    font-weight: 800;
 }
 
 .aida{
@@ -244,7 +250,6 @@
 .text{
     margin: 1rem;
 }
-
 .time img{
     object-fit: contain;
     width: 100%;
@@ -641,13 +646,6 @@ footer{
 
 /*--------------------------------------------------------*/
 @media(max-width:439px){
-    .head{
-    align-items: flex-end;
-    }
-    .head h2{
-        font-size: 2.4rem;
-        line-height: 4rem;
-    }
     .moreBox .more a{
         border: solid 1.6px #235994;
     }
@@ -701,6 +699,9 @@ footer{
     }
     .h_span.active:nth-of-type(2) {
         transform: translateY(-3.6px) rotate(45deg);
+    }
+    .head h2{
+        margin: 9rem 0 0 2.4rem;
     }
     .mapes{
         flex-flow: column;
