@@ -168,7 +168,7 @@
 
 .head{
     width: 100%;
-    background-image: url(sozai/head.jpg);
+    background-image: url(sozai/01.jpg);
     position: fixed;
     z-index: -1;
     background-size: cover;
@@ -181,7 +181,7 @@
 
 .aida{
     width: 100%;
-    height: 40rem;
+    height: 35rem;
     display: flex;
     padding-top: 2rem;
 }
@@ -643,6 +643,9 @@ footer{
     .content01 .acc{
         border-bottom: 1.2px solid #fffdff;
     }
+    .time img{
+        margin-top: -8rem;
+    }
 }
 @media(max-width:599px){
     *{
@@ -681,9 +684,6 @@ footer{
     }
     .h_span.active:nth-of-type(2) {
         transform: translateY(-3.6px) rotate(45deg);
-    }
-    .time img{
-        margin-top: -8rem;
     }
     .mapes{
         flex-flow: column;
