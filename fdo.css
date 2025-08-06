@@ -205,19 +205,6 @@
     width: 100%;
     object-fit: cover;
 }
-/*
-<!--間の写真だよ★
-<div class="haikei01">
-    <div class="aida">
-        <img src="sozai/aida/01.jpg">
-        <img src="sozai/aida/02.jpg">
-        <img src="sozai/aida/03.jpg">
-        <img src="sozai/aida/04.jpg">
-        <img src="sozai/aida/05.jpg">
-    </div>
-</div>
--->
-*/
 
 /*INDEX--------------------------------------------------------*/
 
@@ -335,7 +322,7 @@
 }
 .book .moreBox{
     display: inline;
-    margin-top: 0;
+    margin-top: 0.2rem;
 }
 .book .moreBox .more a{
     padding: 0.2rem 0.8rem 0.4rem 1rem;
