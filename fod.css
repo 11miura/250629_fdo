@@ -168,7 +168,7 @@
 
 .head{
     width: 100%;
-    background-image: url(sozai/01.jpg);
+    background-image: url(sozai/head01.jpg);
     position: fixed;
     z-index: -1;
     background-size: cover;
@@ -177,6 +177,16 @@
     margin-top: 0;
     height: 80rem;
     margin-bottom: 8rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.head h2{
+    color: #235994;
+    font-size: 3.2rem;
+    line-height: 6rem;
+    text-align: right;
+    font-weight: 500;
 }
 
 .aida{
@@ -631,6 +641,13 @@ footer{
 
 /*--------------------------------------------------------*/
 @media(max-width:439px){
+    .head{
+    align-items: flex-end;
+    }
+    .head h2{
+        font-size: 2.4rem;
+        line-height: 4rem;
+    }
     .moreBox .more a{
         border: solid 1.6px #235994;
     }
