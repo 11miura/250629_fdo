@@ -407,6 +407,15 @@
 .info a:hover{
     color: #00EBC7;
 }
+.text02{
+    margin-bottom: 4rem;
+    border-bottom: 2px solid #235994;
+
+}
+.text02 h3{
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
 /*TREATMENT--------------------------------------------------------*/
 .details{
     margin-bottom: 0.5rem;
