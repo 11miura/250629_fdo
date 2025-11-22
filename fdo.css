@@ -657,6 +657,9 @@ footer{
     .moreBox .more a{
         border: solid 1.6px #235994;
     }
+    .ultagu{
+        border: 1.6px;
+    }
     .acc{
         border-bottom: solid 1.6px;
     }
