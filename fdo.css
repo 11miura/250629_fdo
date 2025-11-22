@@ -21,6 +21,11 @@
         letter-spacing: 0.2rem;
         font-weight: 800;
     }
+    .text h4{
+        font-size: 1.7rem;
+        letter-spacing: 0.2rem;
+        font-weight: 500;
+    }
     a{
         font-weight: 800;
     }
@@ -300,10 +305,10 @@
     flex-wrap: wrap;
     gap: 2rem 2rem;
     margin: 2rem 0 0 0;
-    background-color: #235994a2;
-    color: #fffdff;
+    color: #235994;
+    border: 2px solid #235994;
     padding: 1rem 2rem;
-    border-radius: 5rem;
+    border-radius: 0rem;
 
 }
 .ultagu li a{ 
@@ -572,10 +577,10 @@ details[open] .deg h2{
     flex-wrap: wrap;
     gap: 2rem 2rem;
     margin: 2rem 0 0 0;
-    background-color: #fffdffa2;
-    color: #235994;
+    border: 2px solid #fffdff;
+    color: #fffdff;
     padding: 1rem 2rem;
-    border-radius: 5rem;
+    border-radius: 0rem;
 }
 
 .img{
@@ -621,9 +626,8 @@ footer{
     transition: all 0.3s;
     letter-spacing: 0.3rem;
     font-size: 1.7rem;
-    background-color: #fffdff;
     text-decoration-line: none;
-    color: #235994;
+    color: #fffdff;
 }
 .footer li a:hover{
     background-color: #235994a2;
@@ -677,6 +681,10 @@ footer{
             font-weight: 800;
         }
         .text h3{
+            font-weight: 800;
+        }
+        .text h4{
+            font-size: 14px;
             font-weight: 800;
         }
         a{
