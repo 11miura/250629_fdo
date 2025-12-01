@@ -236,7 +236,7 @@
     color: #235994;
     max-width: 70rem;
     margin: 0 auto;
-    padding-bottom: 4rem;
+    padding-bottom: 10rem;
 }
 
 .text{
@@ -337,6 +337,7 @@
     max-width: 70rem;
     margin: 0 auto;
     padding-bottom: 10rem;
+    
 }
 
 .yakusoku{
@@ -353,6 +354,7 @@
     font-weight: 900;
     font-style: normal;
 }
+
 .flex_boxes{
     display: flex;
     flex-wrap: wrap;
@@ -583,6 +585,19 @@ details[open] .deg h2{
     border-radius: 0rem;
 }
 
+.num b{
+    font-size: 2rem;
+    font-weight: 800;
+    /*font-family: "Noto Sans JP", sans-serif;*/
+}
+.num_p p:nth-of-type(1){
+    font-weight: 800;
+    padding-bottom: 0;
+}
+.num_p p:nth-of-type(2){
+    padding-top: 0;
+}
+
 .img{
     width: 100%;
 }
@@ -698,6 +713,7 @@ footer{
         a{
             font-weight: 800;
         }
+
         span{
             font-size: 14px;
         }
