@@ -287,6 +287,26 @@
     color: #fffdff;
     background-color: #235994;
 }
+.content01 .moreBox .more a{
+    padding: 0.6rem 1.2rem 0.8rem 1.4rem;
+    border-radius: 5rem;
+    text-align: center;
+    cursor: pointer;
+    z-index: 1;
+    position: relative;
+    transition: all 0.3s;
+    letter-spacing: 0.3rem;
+    font-size: 2rem;
+    border: 2px solid #fffdff;
+    box-sizing: border-box;
+    color: #fffdff;
+    text-decoration: none;
+    font-size: 1.7rem;
+}
+.content01 .moreBox .more a:hover{
+    color: #235994;
+    background-color: #fffdff;
+}
 .mapes{
     max-width: 70rem;
     display: flex;
@@ -418,6 +438,12 @@
     margin-bottom: 5rem;
     padding-bottom: 2rem;
     border-bottom: 2px solid #235994;
+
+}
+.content01 .text02{
+    margin-bottom: 5rem;
+    padding-bottom: 2rem;
+    border-bottom: 2px solid #fffdff;
 
 }
 .text02 h3{
@@ -671,6 +697,9 @@ footer{
 @media(max-width:439px){
     .moreBox .more a{
         border: solid 1.6px #235994;
+    }
+    .content01 .moreBox .more a{
+        border: solid 1.6px #fffdff;
     }
     .ultagu{
         border: solid 1.4px #235994;
