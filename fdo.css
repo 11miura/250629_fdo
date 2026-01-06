@@ -632,6 +632,12 @@ details[open] .deg h2{
     width: 100%;
     aspect-ratio: 7/3;
 }
+.download{
+    color: #235994;
+}
+.download:hover{
+    color: #00EBC7;
+}
 /*FOOTER--------------------------------------------------------*/
 footer{
     height: 30rem;
